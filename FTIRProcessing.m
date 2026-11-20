@@ -183,6 +183,9 @@ function [x, y] = readJasco(fname)
 end
 
 function jasco2txt(inPath, varargin)
+% Original python function was taken from https://github.com/jzftran/jws2txt
+% Claude was used to convert it to MatLab
+
 %JASCO2TXT Converts *.jws or *.jwb files to human-readable text files.
 %
 %   jasco2txt(inPath) converts all .jws/.jwb files found in inPath
